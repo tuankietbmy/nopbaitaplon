@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sản phẩm</title>
+    <link rel="stylesheet" href="../css/base.css">
+    <link rel="stylesheet" href="../css/header-nav.css">
+    <link rel="stylesheet" href="../css/sanpham.css">
+</head>
+<body>
+    <section class="page">
+        <header class="header">
+            <section class="grid">
+                <section class="header-wrap">
+                    <section class="header__logo">
+                        <a href="index.html" class="logo-link">SHOPMYPHAM</a>
+                    </section>
+                    <section class="header__search">
+                        <section class="search-wrap">
+                            <input type="text" class="search-input" placeholder="Tìm kiếm sản phẩm">
+                            <button class="search-btn">
+                                <b>Tìm</b>
+                            </button>
+                        </section>
+                    </section>
+                    <section class="header__cart">
+                        <section class="cart-wrap">
+                            <a href="auth_cart.html" class="cart-link">
+                                <b>Giỏ Hàng</b>
+                                <small class="cart-notice">0</small>
+                            </a>
+                        </section>
+                    </section>
+                    <label for="menu-checkbox" class="show-menu-btn">
+                    </label>
+                </section>
+            </section>
+        </header>
+        <nav class="navbar">
+            <input type="checkbox" name="" id="menu-checkbox">
+            <ul class="navbar__menu">
+                <li class="menu-item">
+                    <a href="index.html" class="menu-item-link">Trang chủ</a>
+                </li>
+                <li class="menu-item item-drop menu-item-active">
+                    <a href="#" class="menu-item-link">Sản phẩm</a>
+                    <ul class="menu-drop">
+                        <a href="hang.html" id="Sữa Rữa Mặt">Sữa Rữa Mặt</a>
+                        <a href="hang.html" id="Son">Son</a>
+                        <a href="hang.html" id="Kem Dưỡng Da">Kem Dưỡng Da</a>
+                        <a href="hang.html" id="Phấn Trang Điểm">Phấn Trang Điểm</a>
+                        <a href="hang.html" id="Kem Chống Nắng">Kem Chống Nắng</a>
+                    </ul>
+                </li>
+                <li class="menu-item">
+                    <a href="lienhe.html" class="menu-item-link">Liên hệ</a>
+                </li>
+                <li class="menu-item" id="btnProfile">
+                    <a href="#" class="menu-item-link">Giới thiệu</a>
+                </li>
+                <li class="menu-item" id="btnDangnhap">
+                    <a href="auth_form.html" class="menu-item-link">Đăng nhập</a>
+                </li>
+                <li class="menu-item" id="btnLogout" onclick="logout()" style="display: none;">
+                    <a href="index.html" class="menu-item-link">Đăng xuất</a>
+                </li>
+                <label for="menu-checkbox" class="hide-menu-btn">
+                </label>
+            </ul>
+        </nav>
+
+        <section class="content">
+            <section class="grid grid1">
+                <section class="content-wrap">
+                </section>
+            </section>
+        </section>
+
+        <footer class="footer">
+            <section class="grid">
+                <section class="footer-wrap">
+                    <h3>2022 SHOPMYPHAM</h3>
+                    <p>Địa chỉ: Nguyễn Văn Bảo - Gò Vấp - TPHCM</p>
+                    <p>Điện thoại: 0123456789</p>
+                    <p>Email: shopmypham@gmail.com.vn</p>
+                </section>
+            </section>
+        </footer>
+    </section>
+    <script src="../js/index_currentuser.js"></script>
+    <script src="../js/sanpham.js"></script>
+    <script src="../js/index_control.js"></script>
+</body>
+</html>
